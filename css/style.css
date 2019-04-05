@@ -1,0 +1,39 @@
+/*Header*/
+/*------------------------------ HEADER ------------------------------*/
+#header {
+    /*background: url(../images/bg-header.png) repeat-x center top;*/
+    height: 600px;
+    padding: 16px 0 0;
+    text-align: right;
+}
+/** Logo **/
+#logo {
+    float: left;
+    display: inline-block;
+    margin-left: 10px;
+}
+/** Navigation **/
+#navigation {
+    display: inline-block;
+    height: 30px;
+    list-style: none;
+    margin: 0 10px;
+    padding: 0;
+    *width: 516px; /** Needed for IE7 **/
+}
+#navigation li {
+    float: left;
+    margin: 0 30px;
+}
+#navigation li:first-child {
+    margin-left: 0;
+}
+#navigation li a {
+    color: #efefef;
+    line-height: 30px;
+    padding: 0;
+    text-decoration: none;
+}
+#navigation li a:hover, #navigation li.selected a {
+    color: #44b2f1;
+}
