@@ -1,39 +1,115 @@
-/*Header*/
-/*------------------------------ HEADER ------------------------------*/
-#header {
-    /*background: url(../images/bg-header.png) repeat-x center top;*/
-    height: 600px;
-    padding: 16px 0 0;
-    text-align: right;
+html {
+    /* background: #222222; */
+    /* background-image: url(images/background.jpg);
+    background-repeat: repeat; */
 }
-/** Logo **/
-#logo {
-    float: left;
-    display: inline-block;
-    margin-left: 10px;
-}
-/** Navigation **/
-#navigation {
-    display: inline-block;
-    height: 30px;
-    list-style: none;
-    margin: 0 10px;
+
+body {
+    font-family: Verdana;
+    text-align: center;
+    background: rgba(41, 41, 41, 0.96);
     padding: 0;
-    *width: 516px; /** Needed for IE7 **/
+    margin: 0 20%;
 }
-#navigation li {
+
+body.color {
+    background: #333333;
+    padding: 0;
+    margin: 0 20%;
+}
+
+h1, h2, h3 {
+    color: #b7a57a;
+    margin: 50px 0 30px 0;
+}
+
+p {
+    color: #85754d;
+    margin: 0 0 80px 0;
+}
+
+.longtext {
+    margin: 0 8%
+}
+
+p.longtext {
+    text-align: left;
+    text-indent: 60px;
+    line-height: 20pt;
+    margin-bottom: 10px;
+}
+
+ul#faq {
+    list-style: none;
+}
+
+ul#faq li {
+    list-style: none;
+    text-align: left;
+    text-indent: 170px;
+    line-height: 20pt;
+    color: #85754d;
+}
+
+header div {
+    text-align: center;
+    font-family: Verdana;
+}
+
+.eventInfo p {
+    margin: 0;
+}
+
+header nav ul {
+    padding: 0;
+    margin: auto;
+    text-align: center;
+}
+
+header nav ul li {
     float: left;
-    margin: 0 30px;
+    list-style-type: none;
+    padding: 0 30px;
 }
-#navigation li:first-child {
-    margin-left: 0;
+
+.navigation {
+    display: table;
+    margin: auto;
+    padding:35px 0;
 }
-#navigation li a {
-    color: #efefef;
+
+ul#horizontal-list {
+    min-width: 696px;
+    overflow: hidden;
+    list-style: none;
+    padding-top: 20px;
+}
+ul#horizontal-list li {
+    display: inline;
+}
+
+.navigation:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+a:link, a:visited {
+    color: #b7a57a;
     line-height: 30px;
     padding: 0;
     text-decoration: none;
 }
-#navigation li a:hover, #navigation li.selected a {
+
+a:hover {
     color: #44b2f1;
 }
+
+footer {
+    font-family: Verdana;
+    color: #85754d;
+    text-align: left;
+    padding: 20px 40px;
+    margin-top: 70px;
+}
+
