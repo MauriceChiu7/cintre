@@ -1,38 +1,52 @@
+:root {
+    --content-margin: 20%;
+    --theme-main: #998961;
+    --theme-highlight: #c1af84;
+    --theme-accent: #4e67aa;
+    --button-background: #2f622f;
+    --button-text: #ffffff;
+}
+
 body {
     font-family: Verdana;
     text-align: center;
-    background: rgba(41, 41, 41, 0.96);
+    background: #e9e5e5;
     padding: 0;
-    margin: 0 20%;
+    margin: 0 0;
 }
 
-body.color {
-    background: #333333;
-    padding: 0;
-    margin: 0 20%;
-}
+/* body.color { */
+    /* background: #333333; */
+    /* padding: 0; */
+    /* margin: 0 20%; */
+    /* margin: 0; */
+/* } */
 
 h1, h2, h3 {
-    color: #c1af85;
+    color: var(--theme-highlight);
     margin: 80px 0 40px 0;
 }
 
 h4 {
-    color: #998961;
+    color: var(--theme-main);
     font-size: 16px;
     line-height: 20pt;
     margin: 80px 8% 10px 8%;
 }
 
 p {
-    color: #a09068;
+    color: var(--theme-main);
     margin: 0;
 }
 
+.logo {
+    padding-bottom: 40px;
+}
+
 .button {
-    background-color: #2f622f;
+    background-color: var(--button-background);
     border: none;
-    color: white;
+    color: var(--button-text);
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -42,7 +56,7 @@ p {
 }
 
 .button:hover {
-    background-color: #4e67aa;
+    background-color: var(--theme-accent);
 }
 
 .longtext {
@@ -71,7 +85,7 @@ ul#faq_home li {
     text-align: left;
     text-indent: 170px;
     line-height: 20pt;
-    color: #998961;
+    color: var(--theme-main);
 }
 
 ul#faq {
@@ -84,16 +98,22 @@ ul#faq li {
     text-align: left;
     text-indent: 170px;
     line-height: 20pt;
-    color: #998961;
+    color: var(--theme-main);
+}
+
+.eventInfo p {
+    margin: 0;
+}
+
+header {
+    background: #ffffff;
+    margin: 0;
+    padding: 0;
 }
 
 header div {
     text-align: center;
     font-family: Verdana;
-}
-
-.eventInfo p {
-    margin: 0;
 }
 
 header nav ul {
@@ -131,7 +151,7 @@ ul#horizontal-list li {
 }
 
 a:link, a:visited {
-    color: #c1af84;
+    color: var(--theme-highlight);
     line-height: 30px;
     padding: 0;
     text-decoration: none;
@@ -143,10 +163,11 @@ a:hover {
 
 footer {
     font-family: Verdana;
-    color: #998961;
+    color: var(--theme-main);
     text-align: center;
     padding: 20px 40px;
     margin-top: 70px;
+    background: #232222
 }
 
 .center_box {
