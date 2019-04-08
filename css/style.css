@@ -16,6 +16,10 @@ body {
     /* text-shadow: .2px .2px 4px #000000 */
 }
 
+.content {
+    margin: 0 20%;
+}
+
 /* body.color { */
     /* background: #333333; */
     /* padding: 0; */
