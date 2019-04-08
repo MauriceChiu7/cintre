@@ -67,7 +67,7 @@ p {
 }
 
 .longtext {
-    margin: 0 8%
+    margin: 0 8%;
 }
 
 p.longtext {
@@ -174,7 +174,7 @@ footer {
     text-align: center;
     padding: 20px 40px;
     margin-top: 70px;
-    background: #232222
+    background: #232222;
 }
 
 footer a:hover, footer a:visited, footer, a:link {
@@ -199,7 +199,7 @@ footer a:hover, footer a:visited, footer, a:link {
 .gallery ul li {
     list-style-type: none;
     padding: 15px 10px;
-    display: inline-block
+    display: inline-block;
 }
 
 .gallery::after {
