@@ -175,3 +175,7 @@ footer {
     display: block;
     clear: both;
 }
+
+#particles-js {
+    height: 100%;
+}
