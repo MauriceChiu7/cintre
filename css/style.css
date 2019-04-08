@@ -1,0 +1,177 @@
+body {
+    font-family: Verdana;
+    text-align: center;
+    background: rgba(41, 41, 41, 0.96);
+    padding: 0;
+    margin: 0 20%;
+}
+
+body.color {
+    background: #333333;
+    padding: 0;
+    margin: 0 20%;
+}
+
+h1, h2, h3 {
+    color: #c1af85;
+    margin: 80px 0 40px 0;
+}
+
+h4 {
+    color: #998961;
+    font-size: 16px;
+    line-height: 20pt;
+    margin: 80px 8% 10px 8%;
+}
+
+p {
+    color: #a09068;
+    margin: 0;
+}
+
+.button {
+    background-color: #2f622f;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.button:hover {
+    background-color: #4e67aa;
+}
+
+.longtext {
+    margin: 0 8%
+}
+
+p.longtext {
+    text-align: left;
+    text-indent: 45px;
+    line-height: 20pt;
+    margin-bottom: 10px;
+}
+
+p.shorttext {
+    line-height: 20pt;
+    margin: 0 8% 10px 8%;
+}
+
+ul#faq_home {
+    list-style: none;
+    padding-bottom: 10px;
+}
+
+ul#faq_home li {
+    list-style: none;
+    text-align: left;
+    text-indent: 170px;
+    line-height: 20pt;
+    color: #998961;
+}
+
+ul#faq {
+    list-style: none;
+    padding-bottom: 10px;
+}
+
+ul#faq li {
+    list-style: none;
+    text-align: left;
+    text-indent: 170px;
+    line-height: 20pt;
+    color: #998961;
+}
+
+header div {
+    text-align: center;
+    font-family: Verdana;
+}
+
+.eventInfo p {
+    margin: 0;
+}
+
+header nav ul {
+    padding: 0;
+    margin: auto;
+    text-align: center;
+}
+
+header nav ul li {
+    float: left;
+    list-style-type: none;
+    padding: 0 30px;
+}
+
+.navigation {
+    display: table;
+    margin: auto;
+    padding:35px 0;
+}
+
+ul#horizontal-list {
+    min-width: 696px;
+    overflow: hidden;
+    list-style: none;
+    padding-top: 20px;
+}
+ul#horizontal-list li {
+    display: inline;
+}
+
+.navigation:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+a:link, a:visited {
+    color: #c1af84;
+    line-height: 30px;
+    padding: 0;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #4e67aa;
+}
+
+footer {
+    font-family: Verdana;
+    color: #998961;
+    text-align: center;
+    padding: 20px 40px;
+    margin-top: 70px;
+}
+
+.center_box {
+    text-align: center;
+}
+
+.gallery {
+    display: inline-block;
+}
+
+.gallery ul {
+    padding: 0;
+    margin: auto;
+    display: block;
+    
+}
+
+.gallery ul li {
+    list-style-type: none;
+    padding: 15px 10px;
+    display: inline-block
+}
+
+.gallery::after {
+    content: '';
+    display: block;
+    clear: both;
+}
