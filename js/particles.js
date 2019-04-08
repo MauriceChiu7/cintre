@@ -7,6 +7,8 @@
 /* v2.0.0
 /* ----------------------------------------------- */
 
+let themeColor = '#595959'
+
 var pJS = function(tag_id, params){
 
   var canvas_el = document.querySelector('#'+tag_id+' > .particles-js-canvas-el');
@@ -27,13 +29,13 @@ var pJS = function(tag_id, params){
         }
       },
       color: {
-        value: '#fff'
+        value: themeColor //'#fff'
       },
       shape: {
         type: 'circle',
         stroke: {
           width: 0,
-          color: '#ff0000'
+          color: themeColor //'#ff0000'
         },
         polygon: {
           nb_sides: 5
@@ -67,7 +69,7 @@ var pJS = function(tag_id, params){
       line_linked: {
         enable: true,
         distance: 100,
-        color: '#fff',
+        color: themeColor, //'#fff',
         opacity: 1,
         width: 1
       },
