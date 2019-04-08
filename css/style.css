@@ -208,10 +208,6 @@ footer a:hover, footer a:visited, footer a:link {
     clear: both;
 }
 
-/*#particles-js {*/
-    /*height: 100%;*/
-/*}*/
-
 #particles-js canvas {
     display: block;
     vertical-align: bottom;
