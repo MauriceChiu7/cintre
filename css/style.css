@@ -1,10 +1,10 @@
 :root {
     --content-margin: 20%;
-    --theme-main: #998961;
-    --theme-highlight: #c1af84;
+    --theme-main: #786945;
+    --theme-highlight: #a39264;
     --theme-accent: #4e67aa;
-    --button-background: #2f622f;
-    --button-text: #ffffff;
+    --button-background: #786945;
+    --button-text: white;
 }
 
 body {
@@ -13,6 +13,7 @@ body {
     background: #e9e5e5;
     padding: 0;
     margin: 0 0;
+    /* text-shadow: .2px .2px 4px #000000 */
 }
 
 /* body.color { */
@@ -53,6 +54,8 @@ p {
     display: inline-block;
     font-size: 16px;
     margin-top: 10px;
+    /* border: 1px solid #232222; */
+    box-shadow: 1px 1px 4px #000000
 }
 
 .button:hover {
@@ -158,16 +161,20 @@ a:link, a:visited {
 }
 
 a:hover {
-    color: #4e67aa;
+    color: var(--theme-accent);
 }
 
 footer {
     font-family: Verdana;
-    color: var(--theme-main);
+    color: white;
     text-align: center;
     padding: 20px 40px;
     margin-top: 70px;
     background: #232222
+}
+
+footer a:hover, footer a:visited, footer, a:link {
+    color: white;
 }
 
 .center_box {
