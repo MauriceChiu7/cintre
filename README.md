@@ -1,2 +1,2 @@
-# cintre
-Center for Internet of Things Research (CINTRE)
+# Hack@UWT
+This is the website of Hack@UWT
